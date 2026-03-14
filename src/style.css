@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-birthday-accent: #fbcfe8;
+  --color-birthday-gold: #fde047;
+  --color-birthday-bg: #fffbf7;
+  --color-birthday-text: #4a4a4a;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--color-birthday-bg);
+  color: var(--color-birthday-text);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base resets & utilities */
+* {
+  box-sizing: border-box;
+}
+
+.heading-font {
+  font-family: 'Outfit', sans-serif;
+}
